@@ -1,2 +1,21 @@
-# Dog-Breed-Classification-multi-class-image-classifier-using-TensorFlow-and-Tensorflow-Hub
-This project uses TensorFlow and transfer learning to classify dog images into 120 different breeds. It includes image preprocessing, data batching, model training, and prediction generation using the Kaggle Dog Breed Identification dataset.
+# End-to-end Multi-class Dog Breed Classification
+This notebook builds and end-to-end multi-class image classifier using TensorFlow and Tensorflow Hub.
+
+## 1. Problem
+Identifying the breed of a dog given an image of a dog.
+
+## 2. Data
+The data is from Kaggles's dog breed identification competition:
+https://www.kaggle.com/competitions/dog-breed-identification/data
+
+## 3. Evaluation
+The evaluation is a file with prediction probabilities for each dog breed of each test image:
+https://www.kaggle.com/competitions/dog-breed-identification/overview/evaluation
+
+## 4. Features
+Some information about the data:
+* Dealing with images(unstructured data) so it's probably best to use deep learning/transfer learning.
+* There are 120 breeds of dogs (this means there are 120 different classes).
+* There are around 10,000+ images in the training set(these images have labels)
+* There are alos 10,000+ images in the test set(these images have no labels, because we'll want to predict them).
+
